@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="header">
+      <nav class="nav1">
+        <div class="nav0">
+            <li><i class="bi bi-facebook"></i></li>
+            <li><i class="bi bi-instagram"></i></li>
+            <li><i class="bi bi-whatsapp"></i></li>
+        </div>
+      </nav>
+      <nav>
+        <a href="index.html"><img src="image/logo.jpg" /></a>
+        <p class="full">HI</p>
+        <div class="nav-links" id="navLinks">
+           
+            <i class="bi bi-x" onclick="hide()"></i>
+          <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Experience</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="show()"></i>
+      </nav>
+      <!-- content in the middle of image -->
+      <div class="text-box">
+        <h1>
+          Make Your Coastal Dream <br />
+          Home a Reality
+        </h1>
+        <p>
+          The item at LYHDverse brngs your dream to life. using the best
+          materials and <br />
+          our talented team of experianced buliders
+        </p>
+        <!-- <a href="">Let's start building </a> -->
+        <button class="btn">Let's start building</button>
+      </div>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function show() {
+        navLinks.style.right = "0";
+      }
+      function hide() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
+
+<!-- 26 min ko ok  -->
