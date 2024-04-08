@@ -40,8 +40,8 @@ nav img{
 }
 
 .full {
-  text-align: center; /* Center the text */
-  margin-top: 5px; /* Adjust the top margin for spacing */
+  text-align: center; 
+  margin-top: 5px; 
   display: flex;
 }
 
@@ -105,7 +105,140 @@ nav img{
 
 nav .bi{
   display: none;
+  
 }
+
+/* Next part */
+#describe {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  font-size: 20px;
+}
+
+.about-content{
+  padding-top: 5px;
+  color: #371aa1;
+  font-weight: bolder;
+  line-height: 1.5;
+  
+}
+.describe1{
+  color : #371aa1;
+  padding-top: 30px;
+  text-align: right;
+  padding-right: 400px;
+}
+
+/* third  */
+
+#des {
+  padding: 65px 0; 
+  background-color: #3c1dc4; 
+}
+
+.content .head {
+  font-size: 30px;
+  color: white; 
+  text-align: center;
+  font-weight: bolder;
+ 
+}
+
+.describe3 {
+  font-size: 16px; 
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+
+/* card  */
+.card-container { 
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.card { 
+  border-radius: 0;
+  background-color: #f1e7e7;
+  margin: 0 20px;
+  width: 160px;
+  height: 130px;
+}
+
+.card-body{
+  display: flex;
+ text-align: center;
+  justify-content: left;
+  height: 100px;
+  flex-direction: column;
+}
+
+.card-text {
+  font-weight: bold;
+  color: blue;
+}
+
+/* next */
+.card-container1 { 
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.experiance {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body1 {
+  width: 350px; 
+  height: 450px; 
+}
+
+.card-text1 {
+  color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 200px;
+}
+.blue-card { 
+  background-color: #3c1dc4;
+ 
+}
+.gray-card{
+  background-color: #928989;
+}
+.purple-card{
+  background-color: purple;
+}
+
+/* last */
+.last {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.testimonial-item {
+  background-color: #9a8181;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.testimonial-item p {
+  margin: 0; /* Reset margin for the paragraphs */
+}
+
+
+
+
+
+
+
 
 /* for small screen  */
 @media(max-width : 700px){
@@ -129,7 +262,7 @@ nav .bi{
   /*  */
   nav .bi{
     display: block;
-    color: #fff;
+    color: #f1e7e7;
     margin:10px ;
     font-size: 22px;
     cursor: pointer;
@@ -137,4 +270,41 @@ nav .bi{
   .nav-links ul{
     padding: 20px;
   }
+  #describe {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px; 
+  }
+
+  .describe1 {
+    padding-top: 30px;
+    text-align: left; 
+    padding-right: 20px;
+  }
+
+.card-container {
+  flex-wrap: wrap;
+  padding-top: 20px;
 }
+.card { 
+  margin: 10px;
+}
+.card-container1 { 
+  flex-wrap: wrap; 
+  padding-top: 20px; 
+}
+
+.experience {
+  margin: 10px; 
+}
+
+.card-text1 {
+  margin-top: 100px;
+}
+
+
+
+}
+
+
+
